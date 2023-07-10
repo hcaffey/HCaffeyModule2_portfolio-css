@@ -1,0 +1,116 @@
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* consistent font styles for body */
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  /* removed margin/padding */
+  body, .hero, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* header styling */
+  .header {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    background-color: lightblue;
+    margin-top: 0%;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  header nav ul li {
+    margin-left: 10px;
+  }
+  
+  /* blended links with other text*/
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  
+  /* hero styling - center and react to window size changes */
+  .hero img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  /* Main content styling for about me */
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  /* projects section styling*/
+  .work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  /* 1st project styling added with parent above*/
+  .card-column-main {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* 2nd/3rd project styling - half of screen size and added margins to fill*/
+  .card-column {
+    flex-basis: calc(50% - 10px);
+    margin: 5px;
+  }
+  
+  /* child element of styling for side by side*/
+  .card-column img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* section titles*/
+  section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .work h2 {
+    text-align: left;
+  }
+
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  /* added footer */
+  footer {
+    background-color: white;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
