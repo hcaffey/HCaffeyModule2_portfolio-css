@@ -12,9 +12,9 @@
     margin: 0;
     padding: 0;
   }
-
+ 
   /* header styling */
-  .header {
+  .header {    
     background-color: black;
     color: #fff;
     padding: 20px;
@@ -27,7 +27,9 @@
     font-size: 24px;
     font-weight: bold;
     color: black;
-    background-color: lightblue;
+    background-color: white;
+    padding: 5px;
+    border-radius: 10%;
     margin-top: 0%;
   }
   
@@ -52,7 +54,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 25%;
   }
   
   /* Main content styling for about me */
@@ -68,6 +70,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: flex-start;
+  }
+
+  .work h2 {
+    text-align: left;
     align-items: flex-start;
   }
   
@@ -94,10 +101,6 @@
   section h2 {
     font-size: 20px;
     margin-bottom: 10px;
-  }
-
-  .work h2 {
-    text-align: left;
   }
 
   .contact {
